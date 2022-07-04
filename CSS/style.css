@@ -75,7 +75,7 @@ nav {
 
 .opciones li {
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 20px;
 }
 
 .opciones li a {
@@ -93,8 +93,9 @@ nav {
 }
 
 .bloque {
+    position: relative;
     width: 400px;
-    height: 500px;
+    height: 510px;
 }
 
 .bloque:hover {
@@ -109,4 +110,19 @@ nav {
     margin-top: 10px;
     padding: 0;
     font-size: 30px;
+}
+
+.mesi {
+    display: none;
+    position: relative;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}
+
+.bloque:hover .mesi {
+    display: block;
+    transition: all 0.3s ease 0s;
 }
